@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(189, 208, 220);
+}
+
+
+h1 {    
+    font-size: 90px;
+    color:rgb(52, 186, 173);
+    text-shadow: 4px 0 0 rgb(169, 163, 163);
+}
+
+
+.watch-digits {
+    color:rgb(52, 186, 173);
+    font-size: 70px;
+    text-decoration: none;
+ }
+
+.timer-container {
+    padding: 1px;
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+button {
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    margin: 9px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.start-button {
+    background-color: rgb(74, 196, 133);
+}
+
+.reset-button {
+    background-color:rgb(52, 186, 173);
+}
+
+.pause-button {
+    background-color: rgb(211, 46, 46);
+}
+
+
+
